@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": ": verify the user login to application",
+        "description": "",
+        "id": "booking-functionality-of-adaction-application;:-verify-the-user-login-to-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4948416481,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the application",
+            "match": {
+              "location": "StepDefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 205476854,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the valid \"AAA\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AAA",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_valid_in_the_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 383243457,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user  enter the valid \"111\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "111",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_valid_in_the_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595641643,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38120,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verify home page navigate to search hotel page",
+            "match": {
+              "location": "StepDefinition.user_verify_home_page_navigate_to_search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": ": verify the user login to application",
+        "description": "",
+        "id": "booking-functionality-of-adaction-application;:-verify-the-user-login-to-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 483644798,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the application",
+            "match": {
+              "location": "StepDefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156752868,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the valid \"BBB\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BBB",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_valid_in_the_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165503011,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user  enter the valid \"222\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "222",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_valid_in_the_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 532862886,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26391,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verify home page navigate to search hotel page",
+            "match": {
+              "location": "StepDefinition.user_verify_home_page_navigate_to_search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": ": verify the user login to application",
+        "description": "",
+        "id": "booking-functionality-of-adaction-application;:-verify-the-user-login-to-application;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 332302611,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the application",
+            "match": {
+              "location": "StepDefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119520775,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the valid \"manosh95\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "manosh95",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_valid_in_the_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113782160,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user  enter the valid \"manosh95\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "manosh95",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_valid_in_the_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 865046248,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25413,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verify home page navigate to search hotel page",
+            "match": {
+              "location": "StepDefinition.user_verify_home_page_navigate_to_search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Booking functionality of Adaction application",
+    "description": "",
+    "id": "booking-functionality-of-adaction-application",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/adactin/feature/Adactin.feature"
+  }
+]
